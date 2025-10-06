@@ -43,7 +43,7 @@ if [[ -d /root ]]
 then
 cd /root
 {
-git clone https://github.com/Ships2024/hacktestkittest.git
+git clone https://github.com/Ships2024/hacktestkit.git
 } &> /dev/null
 cd /root/hacktestkit
 chmod +x install.sh
@@ -51,7 +51,7 @@ cd /root/hacktestkit
 else
 mkdir /root
 {
-git clone https://github.com/Ships2024/hacktestkittest.git
+git clone https://github.com/Ships2024/hacktestkit.git
 } &> /dev/null
 cd /root/hacktestkit
 chmod +x install.sh
